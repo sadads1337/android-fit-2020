@@ -45,6 +45,7 @@ public final class MainActivity extends AppCompatActivity {
     private void startAnother(String url) {
         final Intent intent = new Intent(this, SecondActivity.class);
         intent.putExtra(EXTRA_MESSAGE, url);
+        // todo: The right way is to check the target activity exists.
         startActivity(intent);
     }
 }

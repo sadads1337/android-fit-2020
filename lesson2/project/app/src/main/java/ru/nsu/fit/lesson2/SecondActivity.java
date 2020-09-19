@@ -83,6 +83,8 @@ public final class SecondActivity extends AppCompatActivity {
     private void addProgress() {
         final LinearLayout searchLayout = findViewById(R.id.search_layout);
         loadPageProgress = new ProgressBar(SecondActivity.this, null, android.R.attr.progressBarStyleSmall);
+        // todo: The right way is to hide button, but there is an example to show dynamic layouts changes.
+        // todo: Check that previous one was deleted.
         loadPageProgress.setLayoutParams(findViewById(R.id.find_another_button).getLayoutParams());
         searchLayout.addView(loadPageProgress);
     }

@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         //! Leak. Static field.
         object1 = new MyClass();
         //! No leak cause field is dynamic.
-        object1 = new MyClass();
+        object2 = new MyClass();
 
         //! Leak. Anonymous class.
         new AsyncTask<Void, Void, Void>() {
@@ -78,7 +78,6 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
             @Override
             public void run() {
                 if (!isInterrupted()) {
-                    // Referencia al contexto de la actividad
                 }
             }
         }.start();
@@ -88,7 +87,6 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
             @Override
             public void run() {
                 if (!isInterrupted()) {
-                    // Referencia al contexto de la actividad
                 }
             }
         };

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">lesson3</string>
+    <string name="orientation">Portrait</string>
+    <string name="empty_text">empty_text</string>
+</resources>

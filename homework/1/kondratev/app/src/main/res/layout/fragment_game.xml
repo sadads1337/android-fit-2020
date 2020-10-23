@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:descendantFocusability="beforeDescendants"
+        android:focusableInTouchMode="true">
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_height="64dp"
+            android:layout_width="64dp"
+            android:src="@mipmap/ic_launcher"
+            android:layout_marginBottom="10dp"/>
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_height="64dp"
+            android:layout_width="64dp"
+            android:layout_below="@id/img1"
+            android:src="@mipmap/ic_launcher"/>
+
+        <EditText
+            android:id="@+id/et1"
+            android:layout_width="wrap_content"
+            android:layout_height="64dp"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@id/img1"
+            android:maxLines="1"
+            android:maxLength="@integer/maxSymb"
+            android:inputType="textPersonName"
+            android:text="@string/player1"
+            android:textSize="30sp"
+            android:layout_marginBottom="10dp"/>
+
+        <EditText
+            android:id="@+id/et2"
+            android:layout_width="wrap_content"
+            android:layout_height="64dp"
+            android:layout_below="@id/et1"
+            android:inputType="textPersonName"
+            android:layout_toEndOf="@id/img2"
+            android:text="@string/player2"
+            android:maxLines="1"
+            android:maxLength="@integer/maxSymb"
+            android:textSize="30sp" />
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="64dp"
+            android:layout_toEndOf="@id/et1"
+            android:textSize="30sp"
+            android:gravity="center_vertical"
+            android:text="0"
+            />
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="64dp"
+            android:layout_toEndOf="@id/et2"
+            android:textSize="30sp"
+            android:gravity="center_vertical"
+            android:text="0"
+            android:layout_below="@id/tv1"/>
+
+        <Button
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="33dp"
+            android:id="@+id/reset_button"
+            android:text="@string/restart"
+             />
+
+
+    </RelativeLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+        <Button
+            android:id="@+id/button_00"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="60sp"/>
+        <Button
+            android:id="@+id/button_01"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="60sp" />
+        <Button
+            android:id="@+id/button_02"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="60sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+        <Button
+            android:id="@+id/button_10"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="60sp" />
+        <Button
+            android:id="@+id/button_11"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="60sp" />
+        <Button
+            android:id="@+id/button_12"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="60sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+        <Button
+            android:id="@+id/button_20"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="60sp" />
+        <Button
+            android:id="@+id/button_21"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="60sp" />
+        <Button
+            android:id="@+id/button_22"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="60sp" />
+    </LinearLayout>
+</LinearLayout>

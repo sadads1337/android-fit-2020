@@ -66,7 +66,7 @@ public class GameFragment extends Fragment implements View.OnClickListener{
                     field[i][j] = buttons[i][j].getText().toString();
                 }
             }
-            if (Game.checkForWin(field)) {
+            if (game.checkForWin(field)) {
                 if (game.isPlayer1Turn()) {
                     player1Wins();
                 } else {

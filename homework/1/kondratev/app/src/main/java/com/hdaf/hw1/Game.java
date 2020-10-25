@@ -142,7 +142,7 @@ public class Game {
         this.name2 = name2;
     }
 
-    public static boolean checkForWin(String [][] field) {
+    public boolean checkForWin(String [][] field) {
 
         for (int i = 0; i < 3; i++) {
             if (field[i][0].equals(field[i][1])

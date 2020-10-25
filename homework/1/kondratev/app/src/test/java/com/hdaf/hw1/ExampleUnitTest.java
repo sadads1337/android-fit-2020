@@ -10,10 +10,13 @@ import static org.junit.Assert.*;
  * @see <a href="http://d.android.com/tools/testing">Testing documentation</a>
  */
 public class ExampleUnitTest {
+    Game g = Game.getInstance();
+
     @Test
     public void addition_isCorrect() {
         assertEquals(4, 2 + 2);
     }
+
 
     @Test
     public void test1(){
@@ -21,7 +24,7 @@ public class ExampleUnitTest {
                 {"X","O",""},
                 {"","X","O"},
                 {"","","X"}};
-        assertEquals(true, Game.checkForWin(field));
+        assertEquals(true, g.checkForWin(field));
     }
     @Test
     public void test2(){
@@ -29,7 +32,7 @@ public class ExampleUnitTest {
                 {"X","O",""},
                 {"X","","O"},
                 {"X","",""}};
-        assertEquals(true, Game.checkForWin(field));
+        assertEquals(true, g.checkForWin(field));
     }
     @Test
     public void test3(){
@@ -37,7 +40,7 @@ public class ExampleUnitTest {
                 {"","O","X"},
                 {"","X","O"},
                 {"X","",""}};
-        assertEquals(true, Game.checkForWin(field));
+        assertEquals(true, g.checkForWin(field));
     }
     @Test
     public void test4(){
@@ -45,7 +48,7 @@ public class ExampleUnitTest {
                 {"","","O"},
                 {"","O",""},
                 {"X","X","X"}};
-        assertEquals(true, Game.checkForWin(field));
+        assertEquals(true, g.checkForWin(field));
     }
     @Test
     public void test5(){
@@ -53,7 +56,7 @@ public class ExampleUnitTest {
                 {"","X","O"},
                 {"","X",""},
                 {"O","X",""}};
-        assertEquals(true, Game.checkForWin(field));
+        assertEquals(true, g.checkForWin(field));
     }
 
     @Test
@@ -62,7 +65,7 @@ public class ExampleUnitTest {
                 {"X","X",""},
                 {"O","O","O"},
                 {"","X",""}};
-        assertEquals(true, Game.checkForWin(field));
+        assertEquals(true, g.checkForWin(field));
     }
 
     @Test
@@ -71,7 +74,7 @@ public class ExampleUnitTest {
                 {"X","X","O"},
                 {"","O",""},
                 {"O","","X"}};
-        assertEquals(true, Game.checkForWin(field));
+        assertEquals(true, g.checkForWin(field));
     }
 
     @Test
@@ -80,7 +83,7 @@ public class ExampleUnitTest {
                 {"O","O","O"},
                 {"X","X",""},
                 {"","","X"}};
-        assertEquals(true, Game.checkForWin(field));
+        assertEquals(true, g.checkForWin(field));
     }
     @Test
     public void test9(){
@@ -88,7 +91,7 @@ public class ExampleUnitTest {
                 {"","O","X"},
                 {"X","O",""},
                 {"X","O",""}};
-        assertEquals(true, Game.checkForWin(field));
+        assertEquals(true, g.checkForWin(field));
     }
     @Test
     public void test10(){
@@ -96,7 +99,7 @@ public class ExampleUnitTest {
                 {"X","X","O"},
                 {"X","O",""},
                 {"O","",""}};
-        assertEquals(true, Game.checkForWin(field));
+        assertEquals(true, g.checkForWin(field));
     }
     @Test
     public void test11(){
@@ -104,7 +107,7 @@ public class ExampleUnitTest {
                 {"X","O",""},
                 {"","","O"},
                 {"","","X"}};
-        assertEquals(false, Game.checkForWin(field));
+        assertEquals(false, g.checkForWin(field));
     }
     @Test
     public void test12(){
@@ -112,7 +115,7 @@ public class ExampleUnitTest {
                 {"X","O",""},
                 {"","O","O"},
                 {"","X","X"}};
-        assertEquals(false, Game.checkForWin(field));
+        assertEquals(false, g.checkForWin(field));
     }
     @Test
     public void test13(){
@@ -120,7 +123,7 @@ public class ExampleUnitTest {
                 {"X","X","O"},
                 {"O","O","X"},
                 {"X","X","O"}};
-        assertEquals(false, Game.checkForWin(field));
+        assertEquals(false, g.checkForWin(field));
     }
     @Test
     public void test14(){
@@ -128,6 +131,6 @@ public class ExampleUnitTest {
                 {"","",""},
                 {"","",""},
                 {"","",""}};
-        assertEquals(false, Game.checkForWin(field));
+        assertEquals(false, g.checkForWin(field));
     }
 }

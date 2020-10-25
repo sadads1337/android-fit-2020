@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="928b2cd0-86f9-4b18-94c0-4e17e392d061" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Nexus_7_API_25" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="layoutResourceFile" />
+        <option value="Class" />
+        <option value="valueResourceFile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Aleksandr &lt;zaitsev726@gmail.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="new_logic" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
+  <component name="ProjectId" id="1itvFRDhZvO1fJ7rLtLCzHHcSF3" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="P6LDU16B18001158" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-10-21T08:55:58.054Z" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="consents" />
+  </component>
+  <component name="RecentsManager">
+    <key name="android.template.804816694">
+      <recent name="com.example.homework_1" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Programming\AndroidStudioProjects\homework_1\app\src\main\res\layout-land" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Android App.app">
+    <configuration name="TicTacToeUnitTest.firstPlayerWins" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.homework_1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.homework_1" />
+      <option name="MAIN_CLASS_NAME" value="com.example.homework_1.TicTacToeUnitTest" />
+      <option name="METHOD_NAME" value="firstPlayerWins" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Android JUnit.TicTacToeUnitTest.firstPlayerWins" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="928b2cd0-86f9-4b18-94c0-4e17e392d061" name="Default Changelist" comment="" />
+      <created>1602739598190</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602739598190</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Добавлено редактирование имени игрока">
+      <created>1603174607338</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603174607338</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Убирается редактирование имени при нажатии пробела&#10;Добавлено изменение счета">
+      <created>1603178255661</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603178255661</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Чекпоинт">
+      <created>1603182837026</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1603182837026</updated>
+    </task>
+    <task id="LOCAL-00004" summary="При перевероте не открывается клавиатура">
+      <created>1603186780787</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1603186780787</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Не сохраняется картинка">
+      <created>1603257958244</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1603257958244</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Перенесена логика игры в другой класс">
+      <created>1603264479797</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1603264479797</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Вроде работает на телефоне и на планшете">
+      <created>1603272905178</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1603272905178</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Последнее обновление">
+      <created>1603334240242</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1603334240242</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Логика окончательно переделана&#10;Пофикшены все баги">
+      <created>1603449216781</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1603449216781</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Добавлено редактирование имени игрока" />
+    <MESSAGE value="Убирается редактирование имени при нажатии пробела&#10;Добавлено изменение счета" />
+    <MESSAGE value="Чекпоинт" />
+    <MESSAGE value="При перевероте не открывается клавиатура" />
+    <MESSAGE value="Не сохраняется картинка" />
+    <MESSAGE value="Перенесена логика игры в другой класс" />
+    <MESSAGE value="Вроде работает на телефоне и на планшете" />
+    <MESSAGE value="Последнее обновление" />
+    <MESSAGE value="Логика окончательно переделана&#10;Пофикшены все баги" />
+    <option name="LAST_COMMIT_MESSAGE" value="Логика окончательно переделана&#10;Пофикшены все баги" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="178" key="#Notifications" timestamp="1603183061455">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#Notifications/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603183061455" />
+    <state x="757" y="239" key="#com.intellij.ide.util.MemberChooser" timestamp="1603270741350">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="757" y="239" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603270741350" />
+    <state x="804" y="248" key="#com.intellij.ide.util.MemberChooser/78.0.1842.1080@78.0.1842.1080" timestamp="1602749670846" />
+    <state x="540" y="275" key="AndroidCreateResourceDirectoryDialog" timestamp="1603183678530">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="540" y="275" key="AndroidCreateResourceDirectoryDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603183678530" />
+    <state x="813" y="356" key="AndroidCreateXmlResourceDialog" timestamp="1603189842553">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="813" y="356" key="AndroidCreateXmlResourceDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603189842553" />
+    <state x="858" y="370" key="AndroidCreateXmlResourceDialog/78.0.1842.1080@78.0.1842.1080" timestamp="1602753082350" />
+    <state x="585" y="114" key="CommitChangelistDialog2" timestamp="1603449215023">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="585" y="114" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603449215023" />
+    <state x="731" y="284" key="FileChooserDialogImpl" timestamp="1603617730408">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="731" y="284" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603617730408" />
+    <state x="779" y="295" key="FileChooserDialogImpl/78.0.1842.1080@78.0.1842.1080" timestamp="1602740296316" />
+    <state width="1877" height="317" key="GridCell.Tab.0.bottom" timestamp="1603449273713">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="317" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603449273713" />
+    <state width="1799" height="295" key="GridCell.Tab.0.bottom/78.0.1842.1080@78.0.1842.1080" timestamp="1602756368350" />
+    <state width="1877" height="317" key="GridCell.Tab.0.center" timestamp="1603449273713">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="317" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603449273713" />
+    <state width="1799" height="295" key="GridCell.Tab.0.center/78.0.1842.1080@78.0.1842.1080" timestamp="1602756368350" />
+    <state width="1877" height="317" key="GridCell.Tab.0.left" timestamp="1603449273712">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="317" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603449273712" />
+    <state width="1799" height="295" key="GridCell.Tab.0.left/78.0.1842.1080@78.0.1842.1080" timestamp="1602756368349" />
+    <state width="1877" height="317" key="GridCell.Tab.0.right" timestamp="1603449273713">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="317" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603449273713" />
+    <state width="1799" height="295" key="GridCell.Tab.0.right/78.0.1842.1080@78.0.1842.1080" timestamp="1602756368350" />
+    <state width="1877" height="347" key="GridCell.Tab.1.bottom" timestamp="1603334260534">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603334260534" />
+    <state width="1877" height="347" key="GridCell.Tab.1.center" timestamp="1603334260534">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="347" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603334260534" />
+    <state width="1877" height="347" key="GridCell.Tab.1.left" timestamp="1603334260534">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="347" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603334260534" />
+    <state width="1877" height="347" key="GridCell.Tab.1.right" timestamp="1603334260534">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="347" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603334260534" />
+    <state x="672" y="236" key="MultipleFileMergeDialog" timestamp="1603447148630">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="672" y="236" key="MultipleFileMergeDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603447148630" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1603169278571">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603169278571" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603334243424">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603334243424" />
+    <state x="170" y="92" width="1658" height="896" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1602742983167">
+      <screen x="78" y="0" width="1842" height="1080" />
+    </state>
+    <state x="170" y="92" width="1658" height="896" key="com.android.tools.idea.avdmanager.AvdListDialog/78.0.1842.1080@78.0.1842.1080" timestamp="1602742983167" />
+    <state x="769" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603447139199">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="769" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603447139199" />
+    <state x="655" y="250" key="run.anything.popup" timestamp="1602755373583">
+      <screen x="78" y="0" width="1842" height="1080" />
+    </state>
+    <state x="655" y="250" key="run.anything.popup/78.0.1842.1080@78.0.1842.1080" timestamp="1602755373583" />
+    <state x="609" y="226" width="701" height="653" key="search.everywhere.popup" timestamp="1603189689120">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="609" y="226" width="701" height="653" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603189689120" />
+    <state x="662" y="235" width="672" height="678" key="search.everywhere.popup/78.0.1842.1080@78.0.1842.1080" timestamp="1602755709942" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="app">
+        <watch expression="ticTacToe" language="JAVA" />
+        <watch expression="buttons" language="JAVA" />
+        <watch expression="buttons[1][0].getText()" language="JAVA" />
+        <watch expression="buttons[0][0].getText()" language="JAVA" />
+        <watch expression="ticTacToe" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

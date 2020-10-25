@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="maxLength">
+        8
+    </integer>
+    <string name="scoreSize" translatable="false">25sp</string>
+</resources>

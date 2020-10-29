@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">tic tac toe</string>
+    <string name="move">%1$s\'s Turn</string>
+    <string name="winner">%1$s has won</string>
+    <string name="draw">Draw</string>
+    <string name="fill_names_error">Fill names</string>
+    <string name="name1_long_error">name of first player too long</string>
+    <string name="name2_long_error">name of second player too long</string>
+    <string name="no_statistic_error">No statistic yet</string>
+    <string name="defaultNamePl1">Player1</string>
+    <string name="defaultNamePl2">Player2</string>
+    <string name="app_title">TicTacToe</string>
+    <string name="new_game">New game</string>
+    <string name="statistic">Game statistics</string>
+    <string name="vs">vs.</string>
+</resources>

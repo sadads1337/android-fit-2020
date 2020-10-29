@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Крестики-нолики</string>
+    <string name="move">Ход игрока %1$s</string>
+    <string name="winner">%1$s выиграл(а)</string>
+    <string name="draw">Ничья</string>
+    <string name="fill_names_error">Заполните поля с именами</string>
+    <string name="name1_long_error">Имя игрока 1 слишком длинное</string>
+    <string name="name2_long_error">Имя игрока 2 слишком длинное</string>
+    <string name="no_statistic_error">Статистики еще нет</string>
+    <string name="defaultNamePl1">Игрок 1</string>
+    <string name="defaultNamePl2">Игрок 2</string>
+    <string name="app_title">Крестики-нолики</string>
+    <string name="new_game">Новая игра</string>
+    <string name="statistic">Статисктика партии</string>
+    <string name="vs">против</string>
+</resources>

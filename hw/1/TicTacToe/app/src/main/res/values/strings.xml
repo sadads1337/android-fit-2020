@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">TicTacToe</string>
+
+    <string name="menu_button_play">New game</string>
+    <string name="menu_button_resume">Resume</string>
+    <string name="menu_button_score">Scores</string>
+
+    <string name="lobby_button_start">Start</string>
+    <string name="lobby_hint_choose_image">Click to choose your image</string>
+
+    <string name="your_turn">Your turn!</string>
+    <string name="draw">Draw!</string>
+    <string name="player_win">win!</string>
+    <string name="lobby_hint_name">Name</string>
+    <string name="score">Score</string>
+    <string name="restart">Restart</string>
+
+    <string name="quit_assert">Are you sure you want to open main menu?</string>
+    <string name="go_to_menu">Go to menu</string>
+    <string name="yes">Yes</string>
+
+</resources>

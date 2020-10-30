@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TicTacToe</string>
+    <string name="menu_button_play">Новая игра</string>
+    <string name="menu_button_score">Счет</string>
+    <string name="lobby_button_start">Начать</string>
+    <string name="lobby_hint_name">Имя</string>
+    <string name="lobby_hint_choose_image">Нажмите, чтобы выбрать свой аватар</string>
+    <string name="score">Счет</string>
+    <string name="your_turn">Ваш ход!</string>
+    <string name="draw">Ничья!</string>
+    <string name="player_win">" победил!"</string>
+    <string name="go_to_menu">Перейти в меню</string>
+    <string name="quit_assert">Вы уверены, что хотите вернутсья в главное меню?</string>
+    <string name="yes">Да</string>
+    <string name="restart">Заново</string>
+    <string name="menu_button_resume">Продолжить</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string name="app_name">Крестики-нолики</string>
+        <string name="new_game">НОВАЯ ИГРА</string>
+        <string name="score">СЧЁТ</string>
+        <string name="back">НАЗАД</string>
+        <string name="reset">НАЧАТЬ ЗАНОВО</string>
+        <string name="playerX">ИГРОК Х</string>
+        <string name="playerO">ИГРОК О</string>
+        <string name="startingScore">0</string>
+        <string name="delimiter">:</string>
+</resources>

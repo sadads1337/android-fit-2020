@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".GameFragment">
+
+    <ImageView
+        android:id="@+id/userPicX"
+        android:layout_height="55dp"
+        android:layout_width="55dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="15dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <ImageView
+        android:id="@+id/userPicO"
+        android:layout_height="55dp"
+        android:layout_width="55dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginTop="15dp"
+        android:src="@mipmap/ic_launcher"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <EditText
+        android:id="@+id/playerX"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:inputType="textPersonName"
+        android:text="@string/playerX"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/userPicX"
+        android:autofillHints="Enter username"
+        tools:ignore="LabelFor" />
+
+    <TextView
+        android:id="@+id/playerXScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:layout_marginStart="50dp"
+        android:text="@string/startingScore"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toRightOf="@id/playerX"
+        app:layout_constraintTop_toBottomOf="@id/userPicX" />
+
+    <EditText
+        android:id="@+id/playerO"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="15dp"
+        android:inputType="textPersonName"
+        android:text="@string/playerO"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/userPicO"
+        android:autofillHints="Enter username"
+        tools:ignore="LabelFor" />
+
+    <TextView
+        android:id="@+id/playerOScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="50dp"
+        android:text="@string/startingScore"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintRight_toLeftOf="@id/playerO"
+        app:layout_constraintTop_toBottomOf="@id/userPicO" />
+
+    <TextView
+        android:id="@+id/playerTurn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/playerXScore" />
+
+    <Button
+        android:id="@+id/cell0"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/purpleGrey"
+        android:textColor="#FFFFFF"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        app:layout_constraintRight_toLeftOf="@id/cell1"
+        app:layout_constraintTop_toBottomOf="@+id/playerX" />
+
+    <Button
+        android:id="@+id/cell1"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/purpleGrey"
+        android:textColor="#FFFFFF"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/cell0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/playerX" />
+
+    <Button
+        android:id="@+id/cell2"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/purpleGrey"
+        android:textColor="#FFFFFF"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toRightOf="@id/cell1"
+        app:layout_constraintTop_toBottomOf="@+id/playerX" />
+
+    <Button
+        android:id="@+id/cell3"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:backgroundTint="@color/purpleGrey"
+        android:textColor="#FFFFFF"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        app:layout_constraintRight_toLeftOf="@+id/cell4"
+        app:layout_constraintTop_toBottomOf="@+id/cell0" />
+
+    <Button
+        android:id="@+id/cell4"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:backgroundTint="@color/purpleGrey"
+        android:textColor="#FFFFFF"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/cell3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cell1" />
+
+    <Button
+        android:id="@+id/cell5"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginEnd="4dp"
+        android:backgroundTint="@color/purpleGrey"
+        android:textColor="#FFFFFF"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toRightOf="@id/cell4"
+        app:layout_constraintTop_toBottomOf="@+id/cell2" />
+
+    <Button
+        android:id="@+id/cell6"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:backgroundTint="@color/purpleGrey"
+        android:textColor="#FFFFFF"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        app:layout_constraintRight_toLeftOf="@id/cell7"
+        app:layout_constraintTop_toBottomOf="@+id/cell3" />
+
+    <Button
+        android:id="@+id/cell7"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:backgroundTint="@color/purpleGrey"
+        android:textColor="#FFFFFF"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/cell6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cell4" />
+
+    <Button
+        android:id="@+id/cell8"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:backgroundTint="@color/purpleGrey"
+        android:textColor="#FFFFFF"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toRightOf="@id/cell7"
+        app:layout_constraintTop_toBottomOf="@+id/cell5" />
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginRight="11dp"
+        android:layout_marginLeft="11dp"
+        android:text="@string/reset"
+        android:textSize="25sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:backgroundTint="@color/mustard"
+        app:layout_constraintTop_toBottomOf="@id/cell7"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="5dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

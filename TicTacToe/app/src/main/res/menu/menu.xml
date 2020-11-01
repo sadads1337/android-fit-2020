@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingConstraints">
+    <item android:id="@+id/newGame"
+        android:title="@string/new_game"/>
+    <item android:id="@+id/score"
+        android:title="@string/score" />
+</menu>

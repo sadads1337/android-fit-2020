@@ -24,8 +24,6 @@ class NotificationID {
 }
 
 public class MockedWorker extends Worker {
-    public static final String INPUT_TAG = "in";
-    public static final String OUTPUT_TAG = "out";
     public static final String CHANNEL_ID = "channel";
 
     public MockedWorker(@NonNull Context context, @NonNull WorkerParameters workerParams) {
@@ -36,7 +34,7 @@ public class MockedWorker extends Worker {
     @Override
     public Result doWork() {
         try {
-            final int sleepTimeSec = getInputData().getInt(INPUT_TAG, 0) + getInputData().getInt(OUTPUT_TAG, 0);
+            final int sleepTimeSec = 5;
 
             final NotificationManagerCompat notificationManager = NotificationManagerCompat.from(getApplicationContext());
             final Notification notification = new NotificationCompat.Builder(getApplicationContext(), CHANNEL_ID)
@@ -48,10 +46,7 @@ public class MockedWorker extends Worker {
             notificationManager.notify(NotificationID.getID(), notification);
 
             Thread.sleep(sleepTimeSec * 1000);
-            final Data resultData = new Data.Builder()
-                    .putInt(OUTPUT_TAG, sleepTimeSec)
-                    .build();
-            return Result.success(resultData);
+            return Result.success();
         } catch (InterruptedException ignore) {
         }
         return Result.failure();

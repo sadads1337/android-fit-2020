@@ -31,15 +31,7 @@ import java.util.concurrent.Executors;
 
 import ru.nsu.fit.lesson8.workers.MockedWorker;
 
-public class MainActivity extends AppCompatActivity implements Configuration.Provider {
-    @NonNull
-    @Override
-    public Configuration getWorkManagerConfiguration() {
-        return new Configuration.Builder()
-                .setExecutor(Executors.newFixedThreadPool(3))
-                .build();
-    }
-
+public class MainActivity extends AppCompatActivity{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -51,31 +43,19 @@ public class MainActivity extends AppCompatActivity implements Configuration.Pro
         }
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-            int importance = NotificationManager.IMPORTANCE_DEFAULT;
+            final int importance = NotificationManager.IMPORTANCE_DEFAULT;
             final NotificationChannel channel = new NotificationChannel(MockedWorker.CHANNEL_ID,
                     "unimportant channel name", importance);
-            NotificationManager notificationManager = getSystemService(NotificationManager.class);
+            final NotificationManager notificationManager = getSystemService(NotificationManager.class);
             notificationManager.createNotificationChannel(channel);
         }
     }
 
     public void onWorkClicked(View view) {
-        final Constraints constraints = new Constraints.Builder()
-                .setRequiresBatteryNotLow(true)
-                .build();
         final OneTimeWorkRequest lastInChain = new OneTimeWorkRequest.Builder(MockedWorker.class)
-                .setInputMerger(MyInputMerger.class)
-                .setConstraints(constraints)
                 .build();
 
-        WorkManager.getInstance(this)
-                .beginWith(createWorkRequest(5))
-                .then(Arrays.asList(
-                        createWorkRequest(1),
-                        createWorkRequest(2),
-                        createWorkRequest(3)))
-                .then(lastInChain)
-                .enqueue();
+        WorkManager.getInstance(this).enqueue(lastInChain);
 
         final ProgressBar progressBar = findViewById(R.id.progress_bar);
         if (progressBar != null) {
@@ -114,41 +94,6 @@ public class MainActivity extends AppCompatActivity implements Configuration.Pro
         final ProgressBar progressBar = findViewById(R.id.progress_bar);
         if (progressBar != null) {
             progressBar.setVisibility(View.INVISIBLE);
-        }
-    }
-
-    @NonNull
-    private OneTimeWorkRequest createWorkRequest(int value) {
-        final Data inputData = new Data.Builder()
-                .putInt(MockedWorker.INPUT_TAG, value)
-                .build();
-        return new OneTimeWorkRequest.Builder(MockedWorker.class)
-                .setInputData(inputData)
-                .build();
-    }
-
-    public static class MyInputMerger extends InputMerger {
-        @NonNull
-        @Override
-        public Data merge(@NonNull List<Data> inputs) {
-            final Data.Builder outputBuilder = new Data.Builder();
-            final Map<String, Object> mergedValues = new HashMap<>();
-            for (Data input : inputs) {
-                for (Map.Entry<String, Object> entry : input.getKeyValueMap().entrySet()) {
-                    if (mergedValues.containsKey(entry.getKey())) {
-                        try {
-                            // Don't use in production bad way...
-                            mergedValues.put(entry.getKey(), (int) mergedValues.get(entry.getKey()) + (int) entry.getValue());
-                        } catch (Throwable ignore) {
-                        }
-                    } else {
-                        mergedValues.put(entry.getKey(), entry.getValue());
-                    }
-                }
-            }
-            return outputBuilder
-                    .putAll(mergedValues)
-                    .build();
         }
     }
 }

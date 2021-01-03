@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Game</string>
+    <string name="new_game">New Game</string>
+    <string name="reset">Reset</string>
+    <string name="start">Let`s play!</string>
+    <string name="player1">Player 1</string>
+    <string name="player2">Player 2</string>
+    <string name="upload">Upload</string>
+    <string name="draw">Draw</string>
+    <string name="win_1">Player 1 win!</string>
+    <string name="win_2">Player 2 win!</string>
+</resources>

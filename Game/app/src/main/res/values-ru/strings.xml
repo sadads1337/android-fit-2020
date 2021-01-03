@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Игра</string>
+    <string name="new_game">Новая игра</string>
+    <string name="reset">Заново</string>
+    <string name="start">Начать играть!</string>
+    <string name="player1">Игрок 1</string>
+    <string name="player2">Игрок 2</string>
+    <string name="upload">Загрузить</string>
+    <string name="draw">Ничья</string>
+    <string name="win_1">Первый игрок победил!</string>
+    <string name="win_2">Второй игрок победил!</string>
+</resources>

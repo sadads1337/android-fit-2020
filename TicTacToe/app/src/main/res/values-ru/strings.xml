@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TicTacToe</string>
+    <string name="create">Добавить</string>
+    <string name="player1">Игрок1</string>
+    <string name="avatar">Аватар</string>
+    <string name="swap_sides">Поменяться местами</string>
+    <string name="play">Играть</string>
+    <string name="login_amp_play"><![CDATA[Логин и Игра]]></string>
+    <string name="players">Игроки</string>
+    <string name="add_player">Добавить игрока</string>
+    <string name="delete_player">Удалить игрока</string>
+    <string name="EditingWithSpace">Изменеие имени\u0020</string>
+    <string name="SpaceWithName">\u0020</string>
+    <string name="deleteWarning">Вы уверены что хотите удалить\u0020</string>
+    <string name="winMessageEnd">\u0020Побеждает!</string>
+    <string name="crosses">Крестик</string>
+    <string name="circles">Нолик</string>
+    <string name="ok">Окей</string>
+    <string name="first">Первого</string>
+    <string name="second">Второго</string>
+    <string name="LoginWithSpace">Логин\u0020</string>
+    <string name="SpaceWithPlayer">\u0020Игрока</string>
+    <string name="drawMessage">Ничья!</string>
+</resources>

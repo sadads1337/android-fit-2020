@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">TicTacToe</string>
+    <string name="create">Create</string>
+    <string name="player1">Player1</string>
+    <string name="avatar">Avatar</string>
+    <string name="swap_sides">Swap Sides</string>
+    <string name="play">Play</string>
+    <string name="login_amp_play"><![CDATA[Login & Play]]></string>
+    <string name="players">Players</string>
+    <string name="add_player">Add Player</string>
+    <string name="delete_player">Delete Player</string>
+    <string name="EditingWithSpace">Editing\u0020</string>
+    <string name="SpaceWithName">\u0020name</string>
+    <string name="deleteWarning">Are you sure you want to delete\u0020</string>
+    <string name="winMessageEnd">\u0020Wins!</string>
+    <string name="crosses">Crosses</string>
+    <string name="circles">Circles</string>
+    <string name="ok">Ok</string>
+    <string name="first">First</string>
+    <string name="second">Second</string>
+    <string name="LoginWithSpace">Login\u0020</string>
+    <string name="SpaceWithPlayer">\u0020Player</string>
+    <string name="drawMessage">It\'s a draw!</string>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddPlayerActivity">
+
+    <ImageView
+        android:id="@+id/addPlayerImageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="25dp"
+        android:layout_weight="1"
+        android:contentDescription="@string/avatar"
+        app:srcCompat="@drawable/ic_default_player_picture"
+        tools:srcCompat="@drawable/ic_default_player_picture" />
+
+    <EditText
+        android:id="@+id/addPlayerNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+
+        android:layout_weight="2"
+        android:hint="@string/player1"
+        android:inputType="textPersonName"
+        android:singleLine="true"
+        android:textSize="20pt"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/addPlayerCreateButton"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="25dp"
+        android:layout_weight="1.5"
+        android:text="@string/create"
+        android:textSize="36sp" />
+
+</LinearLayout>
